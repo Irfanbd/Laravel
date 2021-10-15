@@ -4,7 +4,9 @@
 <li>{{$err}}</li>
     
 @endforeach
-    
+        
+
+
 @endif 
 <form action="users" method="POST">
     @csrf

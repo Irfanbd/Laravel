@@ -1,0 +1,2 @@
+1.What is the use of api.php?
+2.Why Laravel 8 change the way of calling controller?

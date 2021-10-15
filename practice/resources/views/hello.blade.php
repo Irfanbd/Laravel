@@ -1,1 +1,3 @@
-<h2>HEllO FILE</h2>
+<a href="about">About</a><br>
+<h1>Helooooooooooooooooooooooo</h1>
+<a href="contact">Contact</a><br>

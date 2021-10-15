@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsersController;
+use App\Http\Controllers\Users;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,5 +17,16 @@ use App\Http\Controllers\UsersController;
 Route::get('/', function () {
     return view('hello');
 });
-Route::POST("users",[UsersController::class,'getdata']);
-Route::view("login","users");
+// Route::POST("users",[UsersController::class,'getdata']);
+// Route::view("login","users");
+
+
+// Route::get('/about', function()
+// {
+// return view('about');
+// });
+
+Route:: view("about","about");
+Route:: view ("contact","contact");
+
+Route:: get("users",[Users::class,'index']);
